@@ -11,7 +11,7 @@
 邊沒有方向的圖稱為無向圖。
 
 ##连通图
-在一个无向图G中，若从顶点 vi到顶点 vj有路径相连（当然从 vj到 vi也一定有路径），则称 vi和 vj是连通的。如果G是有向图，那么连接 vi和 vj的路径中所有的边都必须同向。如果图中任意两点都是连通的，那么图被称作连通图。
+在一个无向图G中，若从顶点 v<sub>i</sub>到顶点 v<sub>j</sub>有路径相连（当然从 vj到 vi也一定有路径），则称 vi和 vj是连通的。如果G是有向图，那么连接 vi和 vj的路径中所有的边都必须同向。如果图中任意两点都是连通的，那么图被称作连通图。
 
 ##二分图
 二分图又稱雙分圖、二部图、偶图，指頂點可以分成兩個不相交的集 U 和 V. U and V 皆为独立集(independent sets)，使得在同一個集內的頂點不相鄰（沒有共同邊）的圖。
@@ -50,7 +50,7 @@
 
 ##基本术语 
 
-* 阶（Order）：图 G中顶集 V的大小称作图 G的阶。 
+* 阶（Order）：图 G 中顶点集 V 的大小称作图 G 的阶。 
 * 子图（Sub-Graph）：圖 G'称作图 G的子图如果 $V(G') \subseteq V(G)以及 E(G')\subseteq E(G)。 
 * 生成子图（Spanning Sub-Graph）：指满足条件 V(G')=V(G)的 G的子图 {\displaystyle G} G。 
 * 度（Degree）是一个顶点的度是指与该頂點相关联的總边数，顶点 v的度记作 {\displaystyle d(v)} d(v)。度和邊有如下關係： {\displaystyle \sum _{v\in V}d(v)=2\left|E\right|} \sum_{v\in V} d(v)=2\left|E\right|。 
